@@ -39,11 +39,3 @@ void loop() {
   }
 
 }
-
-void piscar() {
-  analogWrite(azul, 0);
-  analogWrite(verde, 255);
-  delay(1000);
-  analogWrite(verde, 0);
-  delay(200);
-}
